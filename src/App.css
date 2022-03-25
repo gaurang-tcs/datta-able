@@ -1,6 +1,13 @@
 .user-event{
     display: flex;
     width: 100%;
-    flex-wrap: wrap;
+    margin-right: auto;
 
 }
+
+@media(max-width:998px) {
+    .user-event{
+        display: flex;
+        flex-direction: column;
+    }
+  }

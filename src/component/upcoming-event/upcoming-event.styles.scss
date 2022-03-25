@@ -1,17 +1,17 @@
 .upcoming-event{
     display: flex;
-    background-color: orange;
-    width:30%;
+    width:38%;
     height: auto;
-    margin-left: 5rem;
-    border: 2px solid red;
-
+    margin: 1rem;
+    
 
     .head{
         display: flex;
         height: 3.5rem;
-        
         width:100%;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem;
 
     .uheading{
         font-size: 2rem;
@@ -22,9 +22,15 @@
         border-radius: 10px;
         margin-left: 10rem;
         background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
-        width: 15%;
+        width: 3.5rem;
+        padding: 0.5rem 0.5rem;
         
-      
     }
 }
 }
+
+@media(max-width:992px) {
+    .upcoming-event{
+       width:96%;
+    }
+  }

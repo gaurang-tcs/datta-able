@@ -1,6 +1,5 @@
 .users{
         width: 60%;
-        border:2px solid red;
         overflow: auto;
     
     .heading{
@@ -14,13 +13,12 @@
     width: 80rem;
     height:auto;
    
-
+  }
 }
-}
 
-//  @media(max-width:768px) {
-//     .userlist{
-//         overflow: scroll;
-        
-//     }
-//   }
+
+@media(max-width:992px) {
+  .users{
+     width:100%;
+  }
+}
