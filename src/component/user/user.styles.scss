@@ -1,0 +1,48 @@
+.user{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 2rem;
+   
+
+    img{
+        width: 6rem;
+        height: 6rem;
+    }
+
+    .userdetails, .time{
+
+        display: flex;
+        flex-direction: column;
+        padding-top: 1rem;
+        font-size: 1.5rem;
+        width: auto;
+
+        .description{
+            color: rgb(148, 146, 146);
+        }
+   }
+   .time{
+       padding-top: 1.5rem;
+       width: auto;
+   }
+
+   .custom-button{
+          display: flex;
+          padding-top: 1rem;
+
+    .button{
+        background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
+        border: none;
+        border-radius: 15px;
+        color: white;
+        font-weight: bold;
+        text-align: center;
+        font-size: 1.5rem;
+        margin-left: 0.4rem;
+        height: 4rem;
+        width: 8rem;
+        cursor:pointer;
+      }
+   }
+   
+}

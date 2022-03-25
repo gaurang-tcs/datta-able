@@ -1,0 +1,26 @@
+.users{
+        width: 60%;
+        border:2px solid red;
+        overflow: auto;
+    
+    .heading{
+    margin-left: 3rem;
+    font-size: 2.5rem;
+    position: absolute;
+}
+
+.userlist{
+    margin-top: 4rem;
+    width: 80rem;
+    height:auto;
+   
+
+}
+}
+
+//  @media(max-width:768px) {
+//     .userlist{
+//         overflow: scroll;
+        
+//     }
+//   }

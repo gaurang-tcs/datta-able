@@ -1,0 +1,30 @@
+.upcoming-event{
+    display: flex;
+    background-color: orange;
+    width:30%;
+    height: auto;
+    margin-left: 5rem;
+    border: 2px solid red;
+
+
+    .head{
+        display: flex;
+        height: 3.5rem;
+        
+        width:100%;
+
+    .uheading{
+        font-size: 2rem;
+        
+    }
+    .label{
+        font-size: 2rem;
+        border-radius: 10px;
+        margin-left: 10rem;
+        background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
+        width: 15%;
+        
+      
+    }
+}
+}
