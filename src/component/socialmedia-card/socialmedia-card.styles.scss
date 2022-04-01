@@ -1,0 +1,65 @@
+.socialmediacard{
+    display: flex;
+    flex: 1 1 15rem;
+    flex-direction: column;
+    width: 30%;
+    padding: 0 3rem;
+
+    .s-header{
+        display: flex;
+        border-bottom: 1px solid #cecece;
+        width: 100%;
+        justify-content: space-between;
+       
+        img{
+        height:8rem;
+        width:8rem;
+        margin-top: 1.5rem;
+      
+        }
+
+       .p-l{
+           display: flex;
+
+        .percentage{
+           
+            height: 2.5rem;
+            font-size: 2rem;
+            padding-top:4.3rem;
+            margin-top: 1.3rem;
+            color:rgb(153, 208, 97);            
+        }
+
+        .s-h-data{
+            display: flex;
+            flex-direction: column;
+            margin-top: 2rem;
+            width: 100%;
+         
+            .likes{
+                margin-left: 2.5rem;
+                font-size: 3rem;
+                
+            }
+            .totallikes {
+                font-size: 2rem;
+                color: grayscale($color: #a5a1a1);
+            }
+        }
+       }
+
+    }
+
+
+
+    .s-footer{
+        display: flex;
+        justify-content: space-around;
+        padding-top: 2rem;
+
+        .target ,.duration{
+            font-size:2rem;
+        }
+    }
+
+}

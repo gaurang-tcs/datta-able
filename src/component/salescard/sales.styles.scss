@@ -2,7 +2,6 @@
     display: flex;
     flex-direction: column;
     padding: 0 3rem;
-    
     flex: 1 1 15rem;
     margin: 1rem 0.5rem;
     border-radius: 10px;
@@ -19,6 +18,13 @@
         display: flex;
         padding-top: 1.5rem;
         justify-content: space-between;
+
+        .arrow{
+            height:3rem;
+            width:2rem;
+            color:greenyellow;
+            padding-right: 1rem;
+        }
 
         .price{
             font-size: 2rem;

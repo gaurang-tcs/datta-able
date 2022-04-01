@@ -1,9 +1,9 @@
 .upcoming-event{
     display: flex;
-    width:38%;
+    flex-direction: column;
+    width:40%;
     height: auto;
-    margin: 1rem;
-    
+    margin:0 2rem;  
 
     .head{
         display: flex;
@@ -11,22 +11,83 @@
         width:100%;
         justify-content: space-between;
         align-items: center;
-        padding: 1rem;
+        padding:0 1rem;
+        margin-left: 0.5rem;
+        margin-bottom: 1rem;
 
-    .uheading{
-        font-size: 2rem;
+    .lheading{
+        font-size: 2.5rem;
         
     }
     .label{
         font-size: 2rem;
         border-radius: 10px;
-        margin-left: 10rem;
+        margin-right: 2rem;
         background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
         width: 3.5rem;
         padding: 0.5rem 0.5rem;
         
+     }
     }
-}
+
+    .competitors{
+        font-size: 2rem;
+        margin: 0 1rem;
+        display: flex;
+        height: 5rem;
+   
+
+        .competitor{
+            padding-top: 2.5rem;
+            padding-left: 1rem;
+        }
+        .count{
+            font-size: 5rem;
+        }
+    }
+
+    .participate{
+        display: flex;
+        justify-content: space-between;
+        margin: 1rem 1rem;
+
+        .p-title{
+           color: grey;
+        }
+
+        img{
+            height:7rem;
+        }
+    }
+
+    .total-ideas{
+        display: flex;
+        margin-top: 3.5rem;
+        padding-bottom: 3rem;
+        border-bottom: 1px solid lightgray;
+
+        .logo{
+            width: 5rem;
+            height: 5rem;
+            color: rgb(164, 94, 164);
+        }
+
+        .idea{
+            display: flex;
+            flex-direction: column;
+            margin-left: 1.5rem;
+
+            .count{
+                font-size: 3rem;
+            }
+
+            .desc{
+                font-size: 1.5rem;
+                color: gray;
+            }
+
+        }
+    }
 }
 
 @media(max-width:992px) {
