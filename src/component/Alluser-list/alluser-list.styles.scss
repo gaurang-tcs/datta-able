@@ -1,0 +1,29 @@
+.all-users-list{
+    display: flex;
+    flex-direction: column;
+    width:100%;
+    overflow-x: scroll;
+
+    .user-header{
+      display: grid;
+      grid-template-columns: 40% 30% 20% 20%;
+
+        .header-block {
+          font-size: 2rem;   
+        }
+    }
+
+    @media (max-width: 500px) {
+      .user-header{
+          grid-template-columns:50% 40% 30% 30%;
+      }
+    }
+
+    .all-users{
+      width: 100%;
+      margin-top: 2rem;
+    
+    }
+}
+
+

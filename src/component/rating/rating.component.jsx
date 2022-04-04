@@ -1,5 +1,4 @@
 import React from "react";
-import { Progress } from 'antd';
 import { FaStar } from 'react-icons/fa';
 import './rating.styles.scss';
 import ProgressBar from "../progressbar/progressbar.component";

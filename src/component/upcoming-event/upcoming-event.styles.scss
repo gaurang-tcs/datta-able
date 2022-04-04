@@ -1,9 +1,9 @@
 .upcoming-event{
     display: flex;
     flex-direction: column;
-    width:40%;
+    width:100rem;
     height: auto;
-    margin:0 2rem;  
+    margin-right: 2rem;  
 
     .head{
         display: flex;
@@ -90,8 +90,9 @@
     }
 }
 
-@media(max-width:992px) {
+@media(max-width:800px) {
     .upcoming-event{
        width:96%;
+       margin-top: 2rem;
     }
   }

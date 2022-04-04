@@ -1,8 +1,14 @@
 .user{
-    display: flex;
-    justify-content: space-between;
+    //display: flex;
+    //justify-content: space-between;
+    display: grid;
+    grid-template-columns:10% 32% 35% 35% 30%;
     padding: 0 2rem;
     width: 98rem;
+    overflow: hidden;
+    //background-color: orange;
+   
+   //ß background-color: orange;
    
 
     img{
@@ -46,4 +52,12 @@
       }
    }
    
+}
+
+@media (max-width:800px) {
+    .user{
+        display: grid;
+        grid-template-columns:10% 25% 25% 25% 25%;
+        width: 100%;
+    }
 }

@@ -5,6 +5,8 @@ import UserList from '../../component/userlist/userlist.component';
 import UpcomingEvent from '../../component/upcoming-event/upcoming-event.component';
 import SocialMediaCardList from "../../component/socialmedia-cardlist/socialmedia-cardlist.component";
 import Rating from "../../component/rating/rating.component";
+import Tabs from "../../component/tabs/tabs.component";
+
 
 const Homepage = () => (
     <div className="homepage">
@@ -15,7 +17,12 @@ const Homepage = () => (
         </div>
 
         <SocialMediaCardList />
-        <Rating />
+
+        <div className="rating-user">
+            <Rating />
+            <Tabs />
+        </div>
+
     </div>
 );
 

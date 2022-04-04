@@ -1,6 +1,14 @@
 .homepage{
-    //background-color: skyblue;
     padding: 0 1rem;
+   // margin: 0 2rem;
+
+    .rating-user{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: space-between;
+
+    }
 }
 
 .user-event{
@@ -10,7 +18,7 @@
 
 }
 
-@media(max-width:998px) {
+@media(max-width:800px) {
     .user-event{
         display: flex;
         flex-direction: column;

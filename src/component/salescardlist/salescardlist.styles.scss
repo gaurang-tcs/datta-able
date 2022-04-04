@@ -3,3 +3,11 @@
     margin: 3rem 2.5rem;
     flex-wrap: wrap;
 }
+
+@media (max-width: 450px) {
+    .salescardlist{
+        display: flex;
+        flex-direction: column;
+    }
+    
+}

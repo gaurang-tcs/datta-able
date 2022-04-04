@@ -15,7 +15,7 @@ const SocialMediaCard = ({ socialmedia }) => {
                     <span className="percentage">{percentage}</span>
                     <div className="s-h-data">
                         <span className="likes">{Likes}</span>
-                        <span className="totallikes">TOTALLIKES</span>
+                        <span className="totallikes">TotalLikes</span>
                     </div>
                 </div>
             </div>
