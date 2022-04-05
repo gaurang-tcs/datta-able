@@ -1,21 +1,20 @@
 .homepage{
     padding: 0 1rem;
-   // margin: 0 2rem;
+    margin-left: 5rem;
+   
 
     .rating-user{
         display: flex;
         flex-wrap: wrap;
         width: 100%;
-        justify-content: space-between;
-
     }
 }
 
 .user-event{
     display: flex;
     width: 100%;
-    margin-right: auto;
-
+    margin: 0 1.5rem;
+    justify-content: space-between;
 }
 
 @media(max-width:800px) {

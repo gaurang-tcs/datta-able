@@ -26,7 +26,6 @@ const SalesCard = ({ sale }) => {
         </div>
 
     )
-
 };
 
 export default SalesCard;

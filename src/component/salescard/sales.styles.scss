@@ -1,26 +1,30 @@
 .salescard {
     display: flex;
     flex-direction: column;
+    background-color: white;
+    height: auto;
+    width: auto;
     padding: 0 3rem;
-    flex: 1 1 15rem;
-    margin: 1rem 0.5rem;
+    flex: 1 1 20rem;
+    margin: 1rem 1.5rem;
     border-radius: 10px;
     box-shadow: 2px 1px 2px 3px rgb(205, 199, 199) ;
   
     
 
     .title{
-        font-size: 2.5rem;
-        font-weight: bold;
+        font-size: 2rem;
+        font-weight: 400;
     }
 
     .p-p{
         display: flex;
         padding-top: 1.5rem;
         justify-content: space-between;
+        padding-bottom: 1rem;
 
         .arrow{
-            height:3rem;
+            height:2.6rem;
             width:2rem;
             color:greenyellow;
             padding-right: 1rem;
@@ -36,3 +40,10 @@
         }
     }
 }
+
+@media(max-width:500px) {
+    .salescard{
+       width:83%; 
+       flex: 1 1 13rem;  
+    }
+  }

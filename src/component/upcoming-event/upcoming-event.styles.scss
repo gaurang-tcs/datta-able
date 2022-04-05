@@ -1,9 +1,15 @@
 .upcoming-event{
     display: flex;
     flex-direction: column;
-    width:100rem;
+    width:50rem;
     height: auto;
-    margin-right: 2rem;  
+    //margin: 0 2.7rem;
+    margin-left: 2.5rem;
+    margin-right: 3rem;
+    border-radius: 10px;
+    box-shadow: 2px 1px 2px 3px rgb(205, 199, 199) ;
+    padding: 2rem;
+    background-color: white;
 
     .head{
         display: flex;
@@ -16,33 +22,38 @@
         margin-bottom: 1rem;
 
     .lheading{
-        font-size: 2.5rem;
+        font-size: 2rem;
         
     }
     .label{
-        font-size: 2rem;
-        border-radius: 10px;
+        font-size: 1.4rem;
+        font-weight: 400;
+        border-radius: 15px;
         margin-right: 2rem;
-        background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
+        background-image:linear-gradient(-135deg,#899FD4 0%,#A389D4 100%);
         width: 3.5rem;
-        padding: 0.5rem 0.5rem;
-        
+        padding: 0.7rem 1.6rem;
+        color: #fff!important;
+       
      }
     }
 
     .competitors{
-        font-size: 2rem;
+       
         margin: 0 1rem;
         display: flex;
         height: 5rem;
    
 
         .competitor{
-            padding-top: 2.5rem;
-            padding-left: 1rem;
+            font-size: 1.5rem;
+            padding-top: 2.7rem;
+            padding-left: 0.1rem;
+            color: gray;
         }
         .count{
-            font-size: 5rem;
+            font-size: 4.5rem;
+            font-weight: 250;
         }
     }
 
@@ -56,7 +67,7 @@
         }
 
         img{
-            height:7rem;
+            height:5rem;
         }
     }
 
@@ -67,8 +78,8 @@
         border-bottom: 1px solid lightgray;
 
         .logo{
-            width: 5rem;
-            height: 5rem;
+            width: 3rem;
+            height: 3.5rem;
             color: rgb(164, 94, 164);
         }
 
@@ -78,11 +89,13 @@
             margin-left: 1.5rem;
 
             .count{
-                font-size: 3rem;
+                font-size: 2.5rem;
+                font-weight: 300;
             }
 
             .desc{
-                font-size: 1.5rem;
+                padding-top: 0.5rem;
+                font-size: 1.4rem;
                 color: gray;
             }
 
@@ -92,7 +105,15 @@
 
 @media(max-width:800px) {
     .upcoming-event{
-       width:96%;
-       margin-top: 2rem;
+        width:91%;
+        margin-top: 2rem;
+        margin-left: 0;
+    }
+  }
+
+  @media(max-width:500px) {
+    .upcoming-event{
+       width:88%;
+     
     }
   }

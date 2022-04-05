@@ -20,7 +20,7 @@ const User = ({ user }) => {
             </div>
             <div className="custom-button">
                 <button className="button">Reject</button>
-                <button className="button">approve</button>
+                <button className="approve">approve</button>
             </div>
         </div>
 

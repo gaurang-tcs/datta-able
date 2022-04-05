@@ -1,27 +1,25 @@
 .user{
-    //display: flex;
-    //justify-content: space-between;
     display: grid;
-    grid-template-columns:10% 32% 35% 35% 30%;
-    padding: 0 2rem;
-    width: 98rem;
-    overflow: hidden;
-    //background-color: orange;
-   
-   //ß background-color: orange;
-   
+   // grid-template-columns:10% 32% 35% 35% 30%;
 
+    grid-template-columns:16% 40% 30% 30% 30%;
+    padding: 0 2rem;
+    width: 100rem;
+    overflow: hidden;
+    border-bottom: 1px solid lightgray;
+   
     img{
-        width: 6rem;
-        height: 6rem;
+        width: 4rem;
+        height: 4rem;
+        margin-top: 1rem;
     }
 
     .userdetails, .time{
 
         display: flex;
         flex-direction: column;
-        padding-top: 1rem;
-        font-size: 1.5rem;
+        padding-top: 1.5rem;
+        font-size: 1.3rem;
         width: auto;
 
         .description{
@@ -29,26 +27,41 @@
         }
    }
    .time{
-       padding-top: 1.5rem;
+       padding-top: 2.5rem;
        width: auto;
    }
 
    .custom-button{
           display: flex;
-          padding-top: 1rem;
+          padding-top: 2rem;
 
     .button{
-        background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
+        background: linear-gradient(-135deg,#899FD4 0%,#A389D4 100%);
         border: none;
         border-radius: 15px;
-        color: white;
+        color: #fff!important;
         font-weight: bold;
         text-align: center;
-        font-size: 1.5rem;
+        font-size: 1.2rem;
+        //margin-left: 0.4rem;
+        height: 3rem;
+        width: 7rem;
+        cursor:pointer;
+        padding: 4px 10px;
+      }
+      .approve{
+        background: linear-gradient(-135deg,#1de9b6 0%,#1dc4e9 100%);
+        border: none;
+        border-radius: 15px;
+        color: #fff!important;
+        font-weight: bold;
+        text-align: center;
+        font-size: 1.2rem;
         margin-left: 0.4rem;
-        height: 4rem;
+        height: 3rem;
         width: 8rem;
         cursor:pointer;
+        padding: 4px 10px;
       }
    }
    
@@ -58,6 +71,21 @@
     .user{
         display: grid;
         grid-template-columns:10% 25% 25% 25% 25%;
+        width: 100%;
+    }
+}
+@media (max-width:1200px) {
+    .user{
+        display: grid;
+        grid-template-columns:10% 30% 20% 20% 20%;
+        width: 100%;
+    }
+}
+
+@media (max-width:1400px) {
+    .user{
+        display: grid;
+        grid-template-columns:10% 35% 25% 25% 20%;
         width: 100%;
     }
 }

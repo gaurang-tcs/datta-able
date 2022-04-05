@@ -1,17 +1,22 @@
 .users-list{
     display: flex;
     flex-direction: column;
-    
     width:100%;
     overflow-x: scroll;
-   // background-color: blue;
+    background-color: white;
+    padding: 2rem;
 
     .user-header{
       display: grid;
+      padding: 1.5rem;
       grid-template-columns: 40% 30% 20% 20%;
+      border-top:1px solid lightgray;
+      border-bottom:1px solid lightgray;
 
         .header-block {
-          font-size: 2rem;   
+          font-size: 1.5rem; 
+          color:gray;  
+          font-weight: 500;   
         }
     }
 
@@ -23,7 +28,7 @@
 
     .today-users{
       width: 100%;
-      margin-top: 2rem;
+      //margin-top: 2rem;
     
     }
 }
