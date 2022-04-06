@@ -1,13 +1,4 @@
-/* .user-event{
+.drawer-homepage{
+    width:100%;
     display: flex;
-    width: 100%;
-    margin-right: auto;
-
 }
-
-@media(max-width:998px) {
-    .user-event{
-        display: flex;
-        flex-direction: column;
-    }
-  } */
