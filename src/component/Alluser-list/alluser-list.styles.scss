@@ -8,7 +8,7 @@
 
     .user-header{
       display: grid;
-      grid-template-columns: 40% 30% 20% 20%;
+      grid-template-columns: 35% 30% 22% 10%;
       padding: 1.5rem;
       border-top:1px solid lightgray;
       border-bottom:1px solid lightgray;
@@ -23,7 +23,7 @@
 
     @media (max-width: 500px) {
       .user-header{
-          grid-template-columns:50% 40% 30% 30%;
+        grid-template-columns:55% 45% 36% 17%;
       }
     }
 

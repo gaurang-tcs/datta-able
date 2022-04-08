@@ -11,7 +11,7 @@ import TemporaryDrawer from './component/drawer/drawer.component';
 const App = () => {
   return (
     <div className='drawer-homepage'>
-     <TemporaryDrawer />
+      <TemporaryDrawer />
       <Homepage />
     </div>
 

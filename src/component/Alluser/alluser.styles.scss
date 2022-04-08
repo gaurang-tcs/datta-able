@@ -1,23 +1,31 @@
-.all-user{
+.all-user {
     display: grid;
-    grid-template-columns:10% 30% 30% 20% 20%;
+    grid-template-columns: 5% 30% 30% 22% 10% 5%;
     width: 100%;
     background-color: white;
     padding: 2rem 0;
-    border-bottom:1px solid lightgray;
-  
-   img{
-       height: 3rem;
-       width: 3rem;
-   }
+    border-bottom: 1px solid lightgray;
 
-   .details{
-       font-size: 1.5rem;
-   }
+    img {
+        height: 3rem;
+        width: 3rem;
+    }
+
+    .details {
+        font-size: 1.3rem;
+        padding-top: 1rem;
+    }
+
+    .dot {
+        height: 4rem;
+        width: 4rem;
+        color: red;
+
+    }
 }
 
 @media (max-width: 500px) {
-    .all-user{
-        grid-template-columns:10% 40% 40% 30% 30%;
+    .all-user {
+        grid-template-columns:10% 45% 45% 30% 17% 1%;
     }
 }

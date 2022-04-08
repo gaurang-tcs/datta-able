@@ -1,119 +1,230 @@
-.upcoming-event{
+.event {
     display: flex;
     flex-direction: column;
-    width:50rem;
-    height: auto;
-    //margin: 0 2.7rem;
-    margin-left: 2.5rem;
-    margin-right: 3rem;
-    border-radius: 10px;
-    box-shadow: 2px 1px 2px 3px rgb(205, 199, 199) ;
-    padding: 2rem;
-    background-color: white;
+    width: 50rem;
+    margin-left: 1rem;
+    margin-right: 1.2rem;
 
-    .head{
+    .upcoming-event {
         display: flex;
-        height: 3.5rem;
-        width:100%;
-        justify-content: space-between;
-        align-items: center;
-        padding:0 1rem;
-        margin-left: 0.5rem;
-        margin-bottom: 1rem;
+        flex-direction: column;
+        width: auto;
+        height: auto;
+        //margin: 0 2.7rem;
 
-    .lheading{
-        font-size: 2rem;
-        
-    }
-    .label{
-        font-size: 1.4rem;
-        font-weight: 400;
-        border-radius: 15px;
-        margin-right: 2rem;
-        background-image:linear-gradient(-135deg,#899FD4 0%,#A389D4 100%);
-        width: 3.5rem;
-        padding: 0.7rem 1.6rem;
-        color: #fff!important;
-       
-     }
-    }
+        border-radius: 10px;
+        box-shadow: 2px 1px 2px 3px rgb(205, 199, 199);
+        padding: 2rem;
+        background-color: white;
 
-    .competitors{
-       
-        margin: 0 1rem;
-        display: flex;
-        height: 5rem;
-   
-
-        .competitor{
-            font-size: 1.5rem;
-            padding-top: 2.7rem;
-            padding-left: 0.1rem;
-            color: gray;
-        }
-        .count{
-            font-size: 4.5rem;
-            font-weight: 250;
-        }
-    }
-
-    .participate{
-        display: flex;
-        justify-content: space-between;
-        margin: 1rem 1rem;
-
-        .p-title{
-           color: grey;
-        }
-
-        img{
-            height:5rem;
-        }
-    }
-
-    .total-ideas{
-        display: flex;
-        margin-top: 3.5rem;
-        padding-bottom: 3rem;
-        border-bottom: 1px solid lightgray;
-
-        .logo{
-            width: 3rem;
-            height: 3.5rem;
-            color: rgb(164, 94, 164);
-        }
-
-        .idea{
+        .head {
             display: flex;
-            flex-direction: column;
-            margin-left: 1.5rem;
+            height: 3.5rem;
+            width: 100%;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 1rem;
+            margin-left: 0.5rem;
+            margin-bottom: 1rem;
 
-            .count{
-                font-size: 2.5rem;
-                font-weight: 300;
+            .lheading {
+                font-size: 2rem;
+
             }
 
-            .desc{
-                padding-top: 0.5rem;
+            .label {
                 font-size: 1.4rem;
+                font-weight: 400;
+                border-radius: 15px;
+                margin-right: 2rem;
+                background-image: linear-gradient(-135deg, #899FD4 0%, #A389D4 100%);
+                width: 3.5rem;
+                padding: 0.7rem 1.6rem;
+                color: #fff !important;
+
+            }
+        }
+
+        .competitors {
+
+            margin: 0 1rem;
+            display: flex;
+            height: 5rem;
+
+
+            .competitor {
+                font-size: 1.5rem;
+                padding-top: 2.7rem;
+                padding-left: 0.1rem;
                 color: gray;
             }
 
+            .count {
+                font-size: 4.5rem;
+                font-weight: 250;
+            }
+        }
+
+        .participate {
+            display: flex;
+            justify-content: space-between;
+            margin: 1rem 1rem;
+
+            .p-title {
+                color: grey;
+            }
+
+            img {
+                height: 5rem;
+            }
+        }
+    }
+
+    .event-2 {
+        display: flex;
+        flex-direction: column;
+        width: auto;
+        height: auto;
+        margin-top: 2rem;
+
+        border-radius: 10px;
+        box-shadow: 2px 1px 2px 3px rgb(205, 199, 199);
+        padding: 2rem;
+        background-color: white;
+
+        .total-ideas {
+            display: flex;
+            margin-top: 3.5rem;
+            padding-bottom: 2rem;
+            border-bottom: 1px solid lightgray;
+
+            .logo {
+                width: 3rem;
+                height: 3.5rem;
+                color: rgb(164, 94, 164);
+            }
+
+            .idea {
+                display: flex;
+                flex-direction: column;
+                margin-left: 1.5rem;
+
+                .count {
+                    font-size: 2.5rem;
+                    font-weight: 300;
+                }
+
+                .desc {
+                    padding-top: 0.5rem;
+                    font-size: 1.4rem;
+                    color: gray;
+                }
+            }
         }
     }
 }
 
+
 @media(max-width:800px) {
-    .upcoming-event{
-        width:91%;
+    .event {
+        width: 93%;
         margin-top: 2rem;
         margin-left: 0;
-    }
-  }
 
-  @media(max-width:500px) {
-    .upcoming-event{
-       width:88%;
-     
+        .upcoming-event {
+            width: 100%;
+        }
+
+        .event-2 {
+                    width:100%;
+
+                }
+
+
+        }
     }
-  }
+
+
+
+    @media(max-width:500px) {
+        .event {
+            width: 88%;
+
+            .upcoming-event {
+                width: 98%;
+
+            }
+
+            .event-2 {
+                width: 98%;
+
+            }
+
+        }
+    }
+
+
+    @media(max-width:1700px) {
+        .event {
+            margin-right: 3rem;
+
+        }
+    }
+
+    // @media(max-width:800px) {
+    //     .event{
+    //         .upcoming-event{
+    //         width:93%;
+    //         margin-top: 2rem;
+    //         margin-left: 0;
+
+    //     }}
+
+    //   }
+
+    //   @media(max-width:500px) {
+    //     .event{
+    //         .upcoming-event{
+    //             width:88%;
+
+    //          }
+    //     }
+    //   }
+
+    //   @media(max-width:1700px) {
+    //    .event{
+    //     .upcoming-event{
+    //           margin-right: 3rem;
+
+    //        }
+    //    }
+    //   }
+
+    //   @media(max-width:800px) {
+    //     .event{
+    //         .event-2{
+    //         width:93%;
+    //         margin-top: 2rem;
+    //         margin-left: 0;
+
+    //     }}
+
+    //   }
+
+    //   @media(max-width:500px) {
+    //     .event{
+    //         .event-2{
+    //             width:88%;
+
+    //          }
+    //     }
+    //   }
+
+    //   @media(max-width:1700px) {
+    //    .event{
+    //     .event-2{
+    //           margin-right: 3rem;
+
+    //        }
+    //    }
+    //   }

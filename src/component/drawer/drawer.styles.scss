@@ -59,11 +59,45 @@
 .drawer{
     background-color: #3f4d67;
     width: auto;
-    //height:2rem;
-    img{
+    position: fixed;
+    height: 100%;
+    
+   .out-drawer{
+       display: flex;
+       flex-direction: column;
+
+       img{
         height:4rem;
         width: 4rem;
         margin: 1.5rem;
         border-radius: 10px;
     }
+
+    .icons{
+        display: flex;
+        flex-direction: column;
+        margin:2rem 1.3rem;
+
+        .icon{
+            height:1.8rem;
+            width:1.8rem;
+            padding: 1rem 1rem;
+            color:#a9b7d0;
+            cursor: pointer;
+        }
+    }
+   }
 }
+
+
+@media(max-width:800px) {
+    .drawer{
+       width:8%;
+    }
+  }
+
+  @media(max-width:600px) {
+    .drawer{
+       width:13%;
+    }
+  }

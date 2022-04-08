@@ -1,6 +1,8 @@
 import React from "react";
 import './thisweek-user.styles.scss';
 
+import {BsDot} from 'react-icons/bs';
+
 const ThisWeekUser = ({user}) => {
     const {profile, name, activity, time, status} = user;
     return (
@@ -10,6 +12,7 @@ const ThisWeekUser = ({user}) => {
           <span className="details">{activity}</span>
           <span className="details">{time}</span>
           <span className="details">{status}</span>
+          <BsDot className="dot"/>
         </div>
     )
 };

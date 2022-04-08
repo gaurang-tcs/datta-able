@@ -1,5 +1,5 @@
 import React from "react";
-
+import {BsDot} from 'react-icons/bs'; 
 import './today-user.styles.scss';
 
 const TodayUser = ({user}) => {
@@ -11,6 +11,7 @@ const TodayUser = ({user}) => {
           <span className="details">{activity}</span>
           <span className="details">{time}</span>
           <span className="details">{status}</span>
+          <BsDot className="dot"/>
         </div>
     )
 };

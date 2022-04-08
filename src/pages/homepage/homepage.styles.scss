@@ -1,21 +1,22 @@
 .homepage{
-    padding: 0 1rem;
    
+    margin-left: 7rem;
     width: 100%;
-    //position: absolute;
+    z-index: -1;
    
 
     .rating-user{
         display: flex;
         flex-wrap: wrap;
         width: 100%;
+    
     }
 }
 
 .user-event{
     display: flex;
     width: 100%;
-    margin: 0 1.5rem;
+    margin: 0.5rem;
     justify-content: space-between;
 }
 
@@ -23,5 +24,18 @@
     .user-event{
         display: flex;
         flex-direction: column;
+    }
+  }
+
+  @media(max-width:800px) {
+    .homepage{
+       width:91%;
+    }
+  }
+
+
+  @media(max-width:400px) {
+    .homepage{
+       width:84%;
     }
   }

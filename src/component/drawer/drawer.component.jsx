@@ -101,7 +101,55 @@ const TemporaryDrawer = () => {
     <div className='drawer'>
       {['left'].map((anchor) => (
         <React.Fragment key={anchor}>
-          <img src="https://i.postimg.cc/YSkh7XMQ/favicon.jpg" alt='logo' onClick={toggleDrawer(anchor, true)} />
+          <div className='out-drawer'>
+            <img src="https://i.postimg.cc/YSkh7XMQ/favicon.jpg" alt='logo' onClick={toggleDrawer(anchor, true)} />
+
+            <Divider />
+
+            <div className='icons'>
+              <BiHomeAlt className='icon' />
+            </div>
+
+            <Divider />
+
+            <div className='icons'>
+              <BiCube className='icon' />
+            </div>
+
+            <Divider />
+
+            <div className='icons'>
+              <AiOutlineFileText className='icon' />
+            </div>
+            <div className='icons'>
+              <BiServer className='icon' />
+            </div>
+
+            <Divider />
+
+            <div className='icons'>
+              <IoPieChartSharp className='icon' />
+            </div>
+            <div className='icons'>
+              <IoMapSharp className='icon' />
+            </div>
+
+            <Divider />
+
+
+            <div className='icons'>
+              <FiLock className='icon' />
+            </div>
+            <div className='icons'>
+              <FiSidebar className='icon' />
+            </div>
+            <div className='icons'>
+              <BiPowerOff className='icon' />
+            </div>
+
+          </div>
+
+
 
           <Drawer
             anchor={anchor}

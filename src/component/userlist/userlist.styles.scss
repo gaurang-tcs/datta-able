@@ -1,10 +1,11 @@
 .users{
-        width: 70%;
+        width: 72%;
         overflow: auto;
         border-radius: 10px;
         box-shadow: 2px 1px 2px 3px rgb(205, 199, 199) ;
         padding-top: 1rem;
         background-color: white;
+        
         
         
     
@@ -25,7 +26,7 @@
 
 @media(max-width:992px) {
   .users{
-     width:96%;
+     width:99%;
    
   }
 }
@@ -36,3 +37,11 @@
    
   }
 }
+
+
+@media(max-width:3200px) {
+  .users{
+         margin-right: 1rem;
+       
+      }
+  }

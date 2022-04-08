@@ -5,6 +5,7 @@ import TodayUser from "../Today-user/today-user.component";
 import './today-user-list.styles.scss';
 import TODAY_USER_DATA from "../../data/today-user.data";
 
+
 const UserList = () => {
     const [todayusers] = useState(TODAY_USER_DATA);
     return (

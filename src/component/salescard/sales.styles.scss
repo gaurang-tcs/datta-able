@@ -6,7 +6,7 @@
     width: auto;
     padding: 0 3rem;
     flex: 1 1 20rem;
-    margin: 1rem 1.5rem;
+    margin: 1rem 0.5rem;
     border-radius: 10px;
     box-shadow: 2px 1px 2px 3px rgb(205, 199, 199) ;
   
@@ -43,7 +43,7 @@
 
 @media(max-width:500px) {
     .salescard{
-       width:83%; 
+       width:86%; 
        flex: 1 1 13rem;  
     }
   }
